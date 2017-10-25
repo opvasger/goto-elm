@@ -1,0 +1,24 @@
+{
+  "name": "goto-elm",
+  "version": "1.0.0",
+  "description": "An introduction to Elm",
+  "scripts": {
+    "develop": "elm-reactor & nodemon source/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opvasger/goto-elm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/opvasger/goto-elm/issues"
+  },
+  "homepage": "https://github.com/opvasger/goto-elm#readme",
+  "devDependencies": {
+    "elm": "0.18.0",
+    "nodemon": "1.12.1",
+    "ws": "3.2.0"
+  }
+}
