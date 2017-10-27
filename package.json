@@ -2,7 +2,9 @@
   "name": "goto-elm",
   "version": "1.0.0",
   "description": "An introduction to Elm",
-  "scripts": {},
+  "scripts": {
+    "start": "elm-reactor & nodemon source/Chat/Server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/opvasger/goto-elm.git"
