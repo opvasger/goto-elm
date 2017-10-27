@@ -8,7 +8,7 @@
 - [Elm homepage](http://elm-lang.org/), Elm-lang.org
 
 ## Agenda
-The talk is a ~2 hour "no slides, just code" introduction to Elm. The goal will be to get people started with the language whilst providing insight into the trade-offs the language makes compared to it's competitors.
+The talk is a ~2 hour "no slides, just code" introduction to Elm. The goal will be to get people started with the language and explain trade-offs the language makes.
 - Hello World
 - Primitives (REPL, Ellie)
 - Counter Application (Elm Architecture, Html.beginnerProgram)

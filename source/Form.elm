@@ -1,8 +1,8 @@
 module Form exposing (main)
 
 import Html exposing (Html)
-import Html.Events as Events
 import Html.Attributes as Attributes
+import Html.Events as Events
 import Process
 import Task
 
