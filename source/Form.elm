@@ -7,6 +7,11 @@ import Process
 import Task
 
 
+{-
+   A small form with loading state.
+-}
+
+
 type alias Model =
     { name : String
     , pass : String

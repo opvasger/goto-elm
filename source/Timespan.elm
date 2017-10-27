@@ -4,6 +4,8 @@ import Time exposing (Time)
 
 
 {-
+   A Timespan data-structure.
+
    A timespan invariably starts before it ends.
    The lone constructor for Timespans is
    unexposed to maintain this guarantee.
@@ -40,7 +42,7 @@ toDuration (Private head tail) =
 
 isCoinciding : Timespan -> Timespan -> Bool
 isCoinciding (Private headA tailA) (Private headB tailB) =
-    headA < headB && headB < tailA || headB < headA && headA < tailB
+    headA <= headB && headB <= tailA || headB <= headA && headA <= tailB
 
 
 head : Timespan -> Time

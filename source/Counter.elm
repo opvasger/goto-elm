@@ -4,6 +4,11 @@ import Html
 import Html.Events as Events
 
 
+{-
+   A simple counter application.
+-}
+
+
 type Message
     = Increment
     | Decrement
