@@ -12,12 +12,6 @@ type Msg
     | Receive String
 
 
-type alias Model =
-    { messages : List String
-    , message : String
-    }
-
-
 url =
     "ws://localhost:3000"
 
@@ -36,7 +30,7 @@ update msg model =
             ( { model | message = message }, Cmd.none )
 
         Send ->
-            ( { model | message = "" }, WebSocket.send url model.message )
+            ( { model | message = "", messages = model.message :: model.messages }, WebSocket.send url model.message )
 
         Receive message ->
             ( { model | messages = message :: model.messages }, Cmd.none )

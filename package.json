@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An introduction to Elm",
   "scripts": {
-    "start": "elm-reactor & nodemon source/Chat/Server.js"
+    "start": "elm-reactor & nodemon -w source/Chat/Server.js source/Chat/Server.js"
   },
   "repository": {
     "type": "git",
