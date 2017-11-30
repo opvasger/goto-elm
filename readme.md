@@ -14,5 +14,8 @@ The talk is a ~2 hour "no slides, just code" introduction to Elm. The goal will 
 - Counter Application (Elm Architecture, Html.beginnerProgram)
 - Form Application (Commands & Messages, Html.program)
 - Types (Records & Unions)
-- Chat Application (Server Interaction)
-- ...
+- Chat Application (Encoding & Decoding, Server Interaction)
+- JavaScript Integration (Ports, Html.programWithFlags)
+- Embedded Applications (Platform.program)
+- The Future (WebAssembly, Developer Tools, Browser APIs)
+- Join The Community (Slack, Github, Elm-Package, Google-Groups)
